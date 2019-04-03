@@ -1,0 +1,19 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "Creating a Node.js RESTful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kschroeder20/REST-API.git"
+  },
+  "author": "Kevin Schroeder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kschroeder20/REST-API/issues"
+  },
+  "homepage": "https://github.com/kschroeder20/REST-API#readme"
+}
