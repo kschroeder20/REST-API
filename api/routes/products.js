@@ -8,8 +8,13 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res, next) => {
+    const product = {
+        name: req.body.name, //May need to make documentation that requires a name property on request
+        price: req.body.price
+    };
     res.status(201).json({
-        message: 'Handling POST requests to /products'
+        message: 'Handling POST requests to /products',
+        createdProduct: product
     });
 });
 
